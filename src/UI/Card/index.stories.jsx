@@ -1,9 +1,9 @@
-import {Card } from './Card';
+import {Card } from '.';
 import card from './scripts'
 // import {Card, init} from './Card';
 
 export default {
-  title: 'Example/Card',
+  title: 'UI/Card',
   component: Card,
   // argTypes: {
   //   content: { control: 'text' },

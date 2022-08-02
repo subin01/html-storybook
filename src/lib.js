@@ -1,8 +1,8 @@
-import  card from './components/Card/scripts'
-import './components/Card/styles.css'
+import  card from './UI/Card/scripts'
+import './UI/Card/styles.css'
 
-import accordion from './components/Accordion/scripts'
-import './components/Accordion/styles.css'
+import accordion from './UI/Accordion/scripts'
+import './UI/Accordion/styles.css'
 
 card.init()
 accordion.init()
