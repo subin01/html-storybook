@@ -1,5 +1,5 @@
-import {Card } from '.';
-import card from './scripts'
+import { Card } from '.';
+import card from './scripts';
 // import {Card, init} from './Card';
 
 export default {
@@ -18,11 +18,9 @@ Primary.args = {
   className: 'custom-class',
   content: 'Card content section',
   header: 'Card Header',
-  footer: "Card footer"
+  footer: 'Card footer',
 };
 
-
 Primary.play = ({ canvasElement }) => {
-  card.init()
-}
-
+  card.init();
+};
