@@ -31,6 +31,7 @@
     "@vitejs/plugin-react": "^2.0.0",
     "@whitespace/storybook-addon-html": "^5.0.0",
     "babel-loader": "^8.2.5",
+    "sass": "^1.54.0",
     "vite": "^3.0.0"
   }
 }

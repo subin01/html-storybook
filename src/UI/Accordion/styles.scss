@@ -23,6 +23,9 @@
   height: 1em;
 }
 
-.accordion__content {
-  padding-block: 1rem;
+.accordion {
+  &__content {
+    padding-block: 1rem;
+    background: yellow;
+  }
 }
