@@ -10,9 +10,12 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@hover/storybook-addon-pseudo-states": "^1.1.3",
+    "@storybook/addon-a11y": "^6.5.9",
     "blingblingjs": "^2.3.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "storybook-addon-designs": "^6.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",

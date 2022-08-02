@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  Button  from '.';
+import Button from '.';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -20,6 +20,13 @@ export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
   label: 'Button',
+};
+
+Primary.parameters = {
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/oaPmxA6fmQfoYso9yKXFyn/GHD-Design-System?node-id=1368%3A48852',
+  },
 };
 
 export const Secondary = Template.bind({});
