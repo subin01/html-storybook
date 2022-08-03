@@ -24,7 +24,7 @@
 }
 
 .accordion {
-  &__content {
+  & .accordion__content {
     padding-block: 1rem;
     background: yellow;
   }

@@ -8,6 +8,14 @@ module.exports = {
     '@storybook/addon-a11y',
     'storybook-addon-designs',
     '@hover/storybook-addon-pseudo-states',
+    {
+      name: '@storybook/addon-postcss',
+      options: {
+        postcssLoaderOptions: {
+          implementation: require('postcss'),
+        },
+      },
+    },
   ],
   framework: '@storybook/react',
   core: {

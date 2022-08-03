@@ -5,5 +5,5 @@ import './UI/Card/styles.css';
 card.init();
 
 import accordion from './UI/Accordion/scripts';
-import './UI/Accordion/styles.scss';
+import './UI/Accordion/styles.css';
 accordion.init();
